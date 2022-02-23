@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <title>WEB mo hinh</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v13.0&appId=429215628980955&autoLogAppEvents=1" nonce="NWchWaSG"></script>
+
+
+
+
+
+    <div class="container_12">
+        <header>
+            <div class="logo">
+                <img src="images/lolonho.gif" alt="" />
+            </div>
+            <nav>
+
+                <div class="t">
+                    <div class="mucluc">
+                        <select>
+                  <option>Tất cả</option>
+                  <option>sản phẩm</option>
+                  <option>giá tiền</option>
+                </select>
+                    </div>
+                    <div class="search">
+                        <input type="search" placeholder="Tìm kiếm sản phẩm" />
+                        <i class="fab fa-sistrix"></i> &emsp; &emsp; &emsp; &#160; &emsp; &emsp;
+                        <i class="far fa-shopping-cart"></i>
+                        <div class="fb-like" data-href="http://127.0.0.1:5501/ASMGD1/LienHe.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="index.html">TRANG CHỦ</a></li>
+                        <li>
+                            <a href="SanPham.html">SẢN PHẨM</a>
+                            <ul class="menucon">
+                                <li><a href="index.html">MÔ HÌNH/FIGURE</a></li>
+                                <li>
+                                    <a href="#">TRANH TREO TƯỜNG=></a>
+                                    <ul class="menucon2">
+                                        <li><a href="ASMCON/lotchuot.html">TRANH CANVAS ĐÓNG KHUNG</a></li>
+                                        <li><a href="ASMCON/vaidior.html">TRANH VẢI KHÔNG VIỀN</a></li>
+                                        <li><a href="ASMCON/shop.html">TRANH GHÉP 5</a></li>
+                                        <li><a href="ASMCON/tranhFomer.html">TRANH FORMEX</a></li>
+                                        <li><a href="#">TRANH TRÁNG GƯƠNG</a></li>
+                                        <li><a href="#">TRANH ĐỒNG HỒ TRÁNG GƯƠNG</a></li>
+                                        <li><a href="#">TRANH LED</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="ASMCON/SETDECAL.html">Set Decal dán tường</a></li>
+                                <li><a href="ASMCON/vaidior.html">Vải decor</a></li>
+                                <li><a href="ASMCON/lotchuot.html">LÓT CHUỘT</a></li>
+                                <li><a href="ASMCON/shop.html">Vật Phẩm Trưng Bầy</a></li>
+                                <li><a href="ASMCON/tranhFomer.html">ÁO</a></li>
+                                <li><a href="#">Mẫu dán thẻ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="GioiThieu.html">GIỚI THIỆU</a> </li>
+                        <li><a href="LienHe.html">LIÊN HỆ</a></li>
+                        <li><a href="BLOG.html">BLOG</a></li>
+                        <li>
+                            <a href=""> TÀI KHOẢN </a>
+
+                            <ul class="menucon">
+                                <li><a href="TaiKhoan.html"> Đăng Nhập </a></li>
+                                <li><a href="ĐangKy.html"> Đăng Ký </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+            </nav>
+
+        </header>
+
+
+
+        <article>
+            <div class="Baner">
+                <!-- <img src="images/anhdau.jpg" alt=""> -->
+
+
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="images/anhdau.jpg" style="width:100%" height="600px">
+
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="images/anhdau2.jpg" style="width:100%" height="600px">
+
+                    </div>
+
+
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+
+                </div>
+
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) {
+                            slideIndex = 1
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        dots[slideIndex - 1].className += " active";
+                        setTimeout(showSlides, 2000); // Change image every 2 seconds
+                    }
+                </script>
+
+
+            </div>
+
+            <div class="thongtin">
+                <h1>CÁC SẢN PHẨM NỔI BẬT</h1>
+                <div class="line"></div>
+                <p>
+                    Tháng này, bạn nhất định phải nhanh tay sở hữu các sản phẩm của
+                    <br /> TiTan vì dòng sản phẩm hot trend này rất dễ bị “càn quét” sau những cơn “bão” mua sắm
+                </p>
+            </div>
+
+            <div class="sanpham">
+                <div class="box1">
+                    <img src="images/anh1.jpg" alt="" />
+
+                    <h4>KHÁC</h4>
+                    <p>TRANH GHÉP 5 CHỦ ĐỀ NARUTO 009</p>
+
+                    <div class="tien">195,000₫</div>
+                </div>
+
+                <div class="box1">
+                    <img src="images/anh2.jpg" alt="" />
+
+                    <h4>KHÁC</h4>
+                    <p>MÔ HÌNH GAARA BÃO CÁT CỰC ĐẸP</p>
+
+                    <div class="tien">890,000₫</div>
+                </div>
+
+                <div class="box1">
+                    <img src="images/anh3.jpg" alt="" />
+
+                    <h4>KHÁC</h4>
+                    <p>PAD CHUỘT ONE PIECE 040</p>
+
+                    <div class="tien">
+                        <br /> 195,000₫
+                    </div>
+                </div>
+
+                <div class="box1">
+                    <img src="images/anh4.jpg" alt="" />
+
+                    <h4>KHÁC</h4>
+                    <p>VẢI DECOR DR 18</p>
+
+                    <div class="tien">
+                        <br /> 250,000₫
+                    </div>
+                </div>
+            </div>
+
+            <div class="sanpham2">
+                <div class="left">
+                    <img src="images/anhbox2.png" alt="" />
+                </div>
+                <div class="leftbottom">
+                    <img src="images/anhbox22.png" alt="" />
+                </div>
+
+                <div class="right">
+                    <img src="images/anhbox22.png" alt="" />
+                </div>
+            </div>
+
+            <div class="thongtin1">
+                <h1>CÁC DÒNG SẢN PHẨM</h1>
+                <div class="line1"></div>
+                <p>
+                    Hãy để TiTan gợi ý và giúp bạn lựa chọn những sản phẩm phù hợp nhất để tôn lên <br /> vẻ đẹp của ngôi nhà bạn nha.
+                </p>
+            </div>
+
+            <div class="cacloai1 mr1">
+                <a href="shop.html">
+                    <h3>Top sản phẩm bán chạy</h3>
+                </a>
+            </div>
+            <div class="cacloai mr1">
+                <a href="/tranhcavas.html">
+                    <h3>TRANH CANVAS</h3>
+                </a>
+            </div>
+            <div class="cacloai mr1">
+                <a href="vaidior.html">
+                    <h3>VẢI DECOR</h3>
+                </a>
+            </div>
+            <div class="cacloai mr1">
+                <a href="SETDECAL.html ">
+                    <h3>SET DECAL</h3>
+                </a>
+            </div>
+            <div class="cacloai mr1">
+                <a href="tranhFomer.html">
+                    <h3>TRANH FORMEX</h3>
+                </a>
+            </div>
+            <div class="cacloai mr1">
+                <a href="lotchuot.html">
+                    <h3>LÓT CHUỘT</h3>
+                </a>
+            </div>
+
+            <div class="sanpham3">
+                <div class="box2 mr mb">
+                    <img src="images/anh31.jpg" alt="" />
+                    <h2>KHÁC</h2>
+                    <p>MÔ HÌNH NHÂN VẬT ACE BẢN TO</p>
+                    <span>
+              <br />
+              1,200,000₫
+            </span>
+                </div>
+
+                <div class="box2 mr mb">
+                    <img src="images/anh32.jpg" alt="" />
+                    <h2>KHÁC</h2>
+                    <p>MÔ HÌNH NHÂN VẬT UCHIHA MADARA LỤC ĐẠO</p>
+                    <span><br />
+              1,500,000₫
+            </span>
+                </div>
+
+                <div class="box2 mr mb">
+                    <img src="images/anh33.jpg" alt="" />
+                    <h2>KHÁC</h2>
+                    <p>MÔ HÌNH NHÂN VẬT LUFFY SNAKE MAN</p>
+                    <span><br />
+              295,000₫
+            </span>
+                </div>
+
+                <div class="box2 mr mb">
+                    <img src="images/34.jpg" alt="" />
+                    <h2>KHÁC</h2>
+                    <p>MÔ HÌNH NHÂN VẬT OBITO LỤC ĐẠO</p>
+                    <span><br />890,000₫ </span>
+                </div>
+
+                <div class="box2 mr mb">
+                    <img src="images/anh35.jpg" alt="" />
+                    <h2>KHÁC</h2>
+                    <p>MÔ HÌNH NHÂN VẬT GOKU CƯỠI MÂY</p>
+                    <span><br />590,000₫ </span>
+                </div>
+                <div class="box2 mr mb">
+                    <img src="images/anh36.jpg" alt="" />
+                    <h2>KHÁC</h2>
+                    <p>MÔ HÌNH NHÂN VẬT ACE BẢN BÉ</p>
+                    <span><br />145,000₫ </span>
+                </div>
+
+                <div class="box2 mr mb">
+                    <img src="images/anh37.jpg" alt="" />
+                    <h2>KHÁC</h2>
+                    <p>MÔ HÌNH NHÂN VẬT MARCO ĐỨNG</p>
+                    <span><br />395,000₫ </span>
+                </div>
+
+                <div class="box2 mr mb">
+                    <img src="images/anh38.jpg" alt="" />
+                    <h2>KHÁC</h2>
+                    <p>MÔ HÌNH NHÂN VẬT ZORO TỨ RỒNG</p>
+                    <span><br />2,900,000₫</span>
+                </div>
+
+                <div class="box2 mr">
+                    <img src="images/anh39.jpg" alt="" />
+                    <h2>KHÁC</h2>
+                    <p>MÔ HÌNH GUY CAO CẤP</p>
+                    <span><br />1,800,000₫</span>
+                </div>
+
+                <div class="box2">
+                    <img src="images/anhpd.jpg" alt="" />
+                    <h2>KHÁC</h2>
+                    <p>PAD CHUỘT CÔNG NGHỆ HUYỀN ẢO</p>
+                    <span><br />195,000₫</span>
+                </div>
+            </div>
+
+            <div class="khachhang">
+                Mời bạn xem thêm các mẫu
+                <a href="shop.html">Top sản phẩm bán chạy khác </a> khác
+                <h1>NHẬN XÉT CỦA KHÁCH HÀNG</h1>
+                <div class="line1"></div>
+                <h3>
+                    Với tiêu chí khách hàng là thượng đế, TiTan luôn nỗ lực hết mình nhằm đem tới <br /> những sản phẩm và dịch vụ tốt nhất tới cho khách hàng
+                </h3>
+            </div>
+            <div class="sanpham4">
+                <div class="sanpham41 mr4 mt4">
+                    <button>Hàng rất đẹp giao hàng nhanh <br>
+            sản phẩm chất lượng , ko sai lầm ko bị vỡ </button>
+                    <img src="images/anhmixi.jpg" alt="" />
+
+                </div>
+
+
+                <div class="sanpham42 mr4 mt4">
+                    <button>Hàng được đóng gói kỹ càng gửi hàng nhanh chóng  <br>
+            gọn mình sẽ ủng hộ shop nhiều hơn</button>
+                    <img src="images/anhrambo.jpg" alt="" />
+                </div>
+
+                <div class="sanpham43 mr4 mt4">
+                    <button>Hàng rất đẹp chuẩn hệ 1 : 1 <br>
+            giao hàng gọn hàng nhân viên nhiệt tình</button>
+                    <img src="images/anhnhims.jpg" alt="" />
+                </div>
+            </div>
+
+        </article>
+
+        <footer>
+            <div class="sanpham5">
+                <i class="far fa-paper-plane"><span>
+              SHIP COD <br />
+              TOÀN QUỐC
+            </span>
+          </i>
+                <i class="fas fa-clipboard-list">
+            ĐỔI TRẢ <br />
+            TRONG 7 NGÀY</i
+          >
+          <i class="fas fa-thumbs-up"
+            >CAM KẾT CHẤT LƯỢNG <br />
+            SẢN PHẨM</i
+          >
+          <i class="fas fa-lock-alt"
+            >BẢO VỆ THÔNG TIN <br />
+            KHÁCH HÀNG</i
+          >
+        </div>
+
+        <div class="sanpham6">
+          <i class="far fa-map-marker-alt mr1"
+            >Địa chỉ: <br />
+            - Đồng Nai: <br />
+            Bùi Chu ,Bắc Sơn , Trang Bom , Đồng Nai.
+          </i>
+
+                <h3>
+                    BẠN NÊN XEM THÊM &emsp; &emsp; &emsp; &emsp; THÔNG TIN KHÁC <br /> Tìm kiếm <br /> Giới thiệu
+                    <div class="face">
+                        <a href="https://www.facebook.com/TiTan360"> <i class='fab fa-facebook-square' style='font-size:80px;color:rgb(14, 47, 233)'></i></a>
+                    </div>
+                    <div class="youtobe">
+                        <a href="https://www.youtube.com/watch?v=we2ckWN3L5A&t=252
+                        s"><i class='fab fa-youtube' 
+                        style='font-size:90px;color:red'></i></a>
+
+                    </div>
+                    <div class="google">
+                        <a href="https://www.google.com/"><i class='fab fa-google' style='font-size:80px;color:red'></i></a>
+                    </div>
+                    <div class="drive">
+                        <a href="https://www.google.com/drive/"><i class='fab fa-google-drive' style='font-size:80px;color:rgb(109, 185, 22)'></i></a>
+                    </div>
+                </h3>
+
+            </div>
+
+            <div class="sanpham61">
+                <i class="fas fa-phone">Số điện thoại: <br />
+            - 0985 776 331 <br />
+            - 0934 648 240</i
+          >
+          
+        
+            </div>
+          
+            <div class="sanpham62">
+                <i class="fas fa-envelope-open-text">
+            Email: <br />
+            tengi.dayta@yahoo.com
+          </i>
+
+            </div>
+
+            <div class="sanpham7">
+                <p>
+                    &emsp; &#160; &emsp; &emsp; &emsp; &emsp; &#160; &emsp; &emsp; &emsp; &emsp; &#160; &emsp; &emsp; &emsp; Thời gian mở cửa: Thứ 2 đến Chủ Nhật từ 8h30 đến 22h (Trừ ngày lễ, ngày Tết). &emsp; &#160; &emsp; &emsp; &emsp; &#160; &emsp; &emsp; &emsp; &#160;
+                    &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; Copyrights © 2021 by TiTan
+                </p>
+            </div>
+
+            <aside></aside>
+        </footer>
+
+        </div>
+
+        <script src="https://uhchat.net/code.php?f=615c0c"></script>
+</body>
+
+</html>
